@@ -1,5 +1,3 @@
-
-
 class Nodo {
     private int dato;
     private Nodo izquierda;

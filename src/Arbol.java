@@ -1,6 +1,3 @@
-
-
-
 class Arbol {
     private Nodo raiz;
 

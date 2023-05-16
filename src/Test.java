@@ -1,5 +1,3 @@
-
-
 public class Test {
 
 	public static void main(String[] args) {
@@ -10,7 +8,7 @@ public class Test {
 		primeroElMejor(arbol);
         
 		System.out.println("---- BUSQUEDA EXHAUSTIVA Primero en profundidad -----");
-		enProfundidad(arbol);    
+		enProfundidad(arbol);
 
 	}
 	
@@ -26,7 +24,7 @@ public class Test {
 	}
 	
 	public static void primeroElMejor (Arbol a) {
-		boolean existe = a.busquedaHeuristica(6);
+		boolean existe = a.busquedaHeuristica(-5);
         if (existe)
         	System.out.println("Meta alcanzada");
         else
@@ -34,7 +32,7 @@ public class Test {
 	}
 	
 	public static void enProfundidad (Arbol a) {
-		boolean existe = a.busquedaExhaustiva(6);
+		boolean existe = a.busquedaExhaustiva(-5);
 		 if (existe)
 	        	System.out.println("Meta alcanzada");
 	        else
